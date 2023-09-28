@@ -1,0 +1,51 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.71.152
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Extensions:              py,js,html,htm,php,txt
+[+] Expanded:                true
+[+] Timeout:                 10s
+===============================================================
+2023/09/28 00:28:23 Starting gobuster in directory enumeration mode
+===============================================================
+http://10.10.71.152/index.html           (Status: 200) [Size: 1188]
+http://10.10.71.152/index.php            (Status: 301) [Size: 0] [--> http://10.10.71.152/]
+http://10.10.71.152/images               (Status: 301) [Size: 235] [--> http://10.10.71.152/images/]
+http://10.10.71.152/blog                 (Status: 301) [Size: 233] [--> http://10.10.71.152/blog/]  
+http://10.10.71.152/sitemap              (Status: 200) [Size: 0]                                    
+http://10.10.71.152/rss                  (Status: 301) [Size: 0] [--> http://10.10.71.152/feed/]    
+http://10.10.71.152/login                (Status: 302) [Size: 0] [--> http://10.10.71.152/wp-login.php]
+http://10.10.71.152/feed                 (Status: 301) [Size: 0] [--> http://10.10.71.152/feed/]       
+http://10.10.71.152/0                    (Status: 301) [Size: 0] [--> http://10.10.71.152/0/]          
+http://10.10.71.152/video                (Status: 301) [Size: 234] [--> http://10.10.71.152/video/]    
+http://10.10.71.152/image                (Status: 301) [Size: 0] [--> http://10.10.71.152/image/]      
+http://10.10.71.152/atom                 (Status: 301) [Size: 0] [--> http://10.10.71.152/feed/atom/]  
+http://10.10.71.152/wp-content           (Status: 301) [Size: 239] [--> http://10.10.71.152/wp-content/]
+http://10.10.71.152/admin                (Status: 301) [Size: 234] [--> http://10.10.71.152/admin/]     
+http://10.10.71.152/audio                (Status: 301) [Size: 234] [--> http://10.10.71.152/audio/]     
+http://10.10.71.152/intro                (Status: 200) [Size: 516314]                                   
+http://10.10.71.152/wp-login.php         (Status: 200) [Size: 2606]                                     
+http://10.10.71.152/wp-login             (Status: 200) [Size: 2664]                                     
+http://10.10.71.152/rss2                 (Status: 301) [Size: 0] [--> http://10.10.71.152/feed/]        
+http://10.10.71.152/css                  (Status: 301) [Size: 232] [--> http://10.10.71.152/css/]       
+http://10.10.71.152/license.txt          (Status: 200) [Size: 309]                                      
+http://10.10.71.152/license              (Status: 200) [Size: 309]                                      
+http://10.10.71.152/wp-includes          (Status: 301) [Size: 240] [--> http://10.10.71.152/wp-includes/]
+http://10.10.71.152/js                   (Status: 301) [Size: 231] [--> http://10.10.71.152/js/]         
+http://10.10.71.152/Image                (Status: 301) [Size: 0] [--> http://10.10.71.152/Image/]        
+http://10.10.71.152/wp-register.php      (Status: 301) [Size: 0] [--> http://10.10.71.152/wp-login.php?action=register]
+http://10.10.71.152/wp-rss2.php          (Status: 301) [Size: 0] [--> http://10.10.71.152/feed/]                       
+http://10.10.71.152/rdf                  (Status: 301) [Size: 0] [--> http://10.10.71.152/feed/rdf/]                   
+http://10.10.71.152/page1                (Status: 301) [Size: 0] [--> http://10.10.71.152/]                            
+http://10.10.71.152/readme               (Status: 200) [Size: 64]                                                      
+http://10.10.71.152/readme.html          (Status: 200) [Size: 64]                                                      
+http://10.10.71.152/robots.txt           (Status: 200) [Size: 41]                                                      
+http://10.10.71.152/robots               (Status: 200) [Size: 41]                                                      
+http://10.10.71.152/dashboard            (Status: 302) [Size: 0] [--> http://10.10.71.152/wp-admin/]                   
+http://10.10.71.152/%20                  (Status: 301) [Size: 0] [--> http://10.10.71.152/]                            
