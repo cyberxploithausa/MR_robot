@@ -22,4 +22,4 @@ What is key 2? | 822c73956184f694993bede3eb39f959
 
 3. 
 
-What is key 3? 04787ddef27c3dee1ee161b21670b4e4
+What is key 3? | 04787ddef27c3dee1ee161b21670b4e4
